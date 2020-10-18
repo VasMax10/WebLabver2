@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/vasmax10/.dotnet/store/|arch|/|tfm|",
+      "/home/vasmax10/.nuget/packages"
+    ]
+  }
+}

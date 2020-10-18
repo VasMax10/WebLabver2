@@ -1,0 +1,23 @@
+﻿@model WebApp.Models.Actors
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div style="padding: 10px; padding-left: 0px">
+    <a asp-action="Index" class="btn btn-warning">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.ID" class="btn btn-primary">Edit</a>
+</div>
+
+<div style="float:left; width:300px; background-color: #AAA; margin-right:20px">
+    <h4 style="text-align:center">@Html.DisplayFor(model => model.Name)</h4>
+    <img src="@Model.Photo" width="300" height="400" style="object-fit: contain" />
+    <h5 style="text-align:center">Birthdate: @Model.Birthdate.ToString("dd/MM/yyyy")</h5>
+</div>
+
+<div style="min-height:600px; font-size:24px; white-space: pre-line">
+    @Model.Info
+</div>
+
+
+
