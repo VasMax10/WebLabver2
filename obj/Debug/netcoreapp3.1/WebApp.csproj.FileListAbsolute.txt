@@ -131,3 +131,5 @@
 /home/vasmax10/Документи/WebApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /home/vasmax10/Документи/WebApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/vasmax10/Документи/WebApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll
+/home/vasmax10/Документи/WebApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll
+/home/vasmax10/Документи/WebApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
